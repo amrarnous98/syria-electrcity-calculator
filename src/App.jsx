@@ -259,7 +259,7 @@ function App() {
                         <div className="text-xl font-semibold">{formatSYP(result.tier1kwh)} ك.و.س</div>
                       </div>
                       <div className="rounded-md border p-4">
-                        <div className="text-sm text-muted-foreground">الشريحة 2 (> {tariffs.household.threshold} ك.و.س) @ {formatSYP(tariffs.household.tier2)} ل.س/ك.و.س</div>
+                        <div className="text-sm text-muted-foreground">الشريحة 2 (&gt; {tariffs.household.threshold} ك.و.س) @ {formatSYP(tariffs.household.tier2)} ل.س/ك.و.س</div>
                         <div className="text-xl font-semibold">{formatSYP(result.tier2kwh)} ك.و.س</div>
                       </div>
                     </>
