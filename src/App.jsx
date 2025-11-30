@@ -113,7 +113,7 @@ function App() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="flex h-14 items-center justify-between">
             <div className="flex items-center gap-2">
-              <Zap className="h-5 w-5 text-primary" aria-hidden="true" />
+              <img src="/assets/logo.ai.svg" alt="logo" className="h-9 w-9 rounded-md" />
               <span className="font-semibold text-sm sm:text-base">حاسبة فاتورة الكهرباء – سوريا </span>
             </div>
             <button
@@ -310,6 +310,7 @@ function App() {
             <br></br>
             الأسعار: {formatSYP(tariffs.household.tier1)} و {formatSYP(tariffs.household.tier2)} ل.س/ك.و.س. فئات المؤسسات: {formatSYP(tariffs.institution.categories.standard)} و {formatSYP(tariffs.institution.categories.premium)} ل.س/ك.و.س.
           </p>
+          <b className='mt-4 block text-center border-t pt-5 mt-12'> تم تطوير الأداة بشكل شخصي من قبل <span className="font-semibold">عمرو عرنوس</span> لتسهيل حساب الإستهلاك و هي غير مرتبطة بأي جهة رسمية.</b>
         </section>
       </main>
     </div>
